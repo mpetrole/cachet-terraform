@@ -1,0 +1,15 @@
+vpc_id               = "vpc-123"
+zone                 = "example.com"
+subdomain            = "status"
+ses_region           = "us-east-1"
+private_subnets      = ["subnet-123"]
+public_subnets       = ["subnet-456"]
+ssh_key              = "example"
+personal_cidr_ranges = ["127.0.0.1/32"]
+admin_email          = "admin@example.com"
+postgres_version     = "9.6.11"
+db_instance_type     = "db.t3.small"
+db_storage_size      = 10
+instance_type        = "t3a.small"
+backup_retention     = 7
+debug                = true
